@@ -4,11 +4,101 @@
 		<meta charset="utf-8">
 		<title>Hello</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+		<style>
+			  div p{
+	        padding: 50px;
+	        font-size: 32px;
+	        font-weight: bold;
+	        text-align: center;
+	        background: #f2f2f2;
+    		}
+		</style>
 	</head>
 <body>
-	<h1>Hello meows</h1>
-
+	<div class="page-header">
+		<h1>Hello. <small>Welcome.</small></h1>
+	</div>
+	<!-- Grid System -->
+	<div class="container">
+	    <div class="row">
+	        <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 1</p></div>
+	        <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 2</p></div>
+	        <div class="clearfix visible-sm-block"></div>
+	        <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 3</p></div>
+	        <div class="clearfix visible-md-block"></div>
+	        <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 4</p></div>
+	        <div class="clearfix visible-sm-block"></div>
+	        <div class="clearfix visible-lg-block"></div>
+	        <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 5</p></div>
+	        <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 6</p></div>
+	        <div class="clearfix visible-sm-block"></div>
+	        <div class="clearfix visible-md-block"></div>
+	        <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 7</p></div>
+	        <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 8</p></div>
+	        <div class="clearfix visible-sm-block"></div>
+	        <div class="clearfix visible-lg-block"></div>
+	        <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 9</p></div>
+	        <div class="clearfix visible-md-block"></div>
+	        <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 10</p></div>
+	        <div class="clearfix visible-sm-block"></div>
+	        <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 11</p></div>
+	        <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 12</p></div>
+	    </div>
+	</div>
+	<p>This is how a normal paragraph looks like in Twitter Bootstrap.</p>
+	<p class="lead">This is how a paragraph stands out in Twitter Bootstrap.</p>
+	<p class="text-left">Left aligned text.</p>
+	<p class="text-center">Center aligned text.</p>
+	<p class="text-right">Right aligned text.</p>
+	<p class="text-justify">Justified text.</p>
+	<p class="text-nowrap">No wrap text.</p>
+	<!-- Transform text -->
+	<p class="text-lowercase">The meowy cat meowed.</p>
+	<p class="text-uppercase">The meowy cat meowed.</p>
+	<p class="text-capitalize">The meowy cat meowed.</p>
+	<p class="text-muted">Muted: This text is grayed out.</p>
+  <p class="text-primary">Important: Please read the instructions carefully before proceed.</p>
+  <p class="text-success">Success: Your message has been sent successfully.</p>
+  <p class="text-info">Note: You must agree with the terms and conditions to complete the sign up process.</p>
+  <p class="text-warning">Warning: There was a problem with your network connection.</p>
+  <p class="text-danger">Error: An error has been occurred while submitting your data.</p>
+  <!-- Blockquotes -->
+  <blockquote class="pull-right">
+     <p>The world is a dangerous place to live; not because of the people who are evil, but because of the people who don't do anything about it.</p>
+     <small>by <cite>Albert Einstein</cite></small>
+	</blockquote>
+	<!-- Tables -->
+	<table class="table table-bordered table-hover table-condensed">
+    <thead>
+        <tr>
+            <th>Row</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="info">
+            <td>1</td>
+            <td>John</td>
+            <td>Carter</td>
+            <td>johncarter@mail.com</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Peter</td>
+            <td>Parker</td>
+            <td>peterparker@mail.com</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>John</td>
+            <td>Rambo</td>
+            <td>johnrambo@mail.com</td>
+        </tr>
+    </tbody>
+	</table>
 	<script src="http://code.jquery.com/jquery.min.js"></script>
   <script src="dist/js/bootstrap.min.js"></script>
 </body>
