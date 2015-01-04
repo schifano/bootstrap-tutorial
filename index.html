@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
 		<style>
-			  div p{
+			  .grid {
 	        padding: 50px;
 	        font-size: 32px;
 	        font-weight: bold;
@@ -21,7 +21,7 @@
 	</div>
 	<!-- Grid System -->
 	<div class="container">
-	    <div class="row">
+	    <div class="row grid">
 	        <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 1</p></div>
 	        <div class="col-sm-6 col-md-4 col-lg-3"><p>Box 2</p></div>
 	        <div class="clearfix visible-sm-block"></div>
@@ -99,6 +99,70 @@
         </tr>
     </tbody>
 	</table>
+	<!-- Unstyled lists -->
+	<ul class="list-unstyled">
+	  <li>Home</li>
+	  <li>Products
+	    <ul>
+	      <li>Gadgets</li>
+	      <li>Accessories</li>
+	    </ul>
+	  </li>
+	  <li>About Us</li>
+	  <li>Contact</li>
+	</ul>
+	<!-- Inline list like a nav bar -->
+	<ul class="list-inline">
+    <li>Home</li>
+    <li>Products</li>
+    <li>About Us</li>
+    <li>Contact</li>
+	</ul>
+	<!-- definition lists -->
+	<dl class="dl-horizontal">
+    <dt>User Agent</dt>
+    <dd>An HTML user agent is any device that interprets HTML documents.</dd>
+    <dt>Client-side Scripting</dt>
+    <dd>Client-side scripting generally refers to the category of computer programs on the web that are executed client-side i.e. by the user's web browser.</dd>
+    <dt>Document Tree</dt>
+    <dd>The tree of elements encoded in the source document.</dd>
+	</dl>
+	<!-- list groups -->
+	<ul class="list-group">
+    <li class="list-group-item">Pictures</li>
+    <li class="list-group-item">Documents</li>        
+    <li class="list-group-item">Music</li>
+    <li class="list-group-item">Videos</li>
+	</ul>
+	<div class="list-group">
+    <a href="#" class="list-group-item active">
+        <span class="glyphicon glyphicon-camera"></span> Pictures <span class="badge">25</span>
+    </a>
+    <a href="#" class="list-group-item">
+        <span class="glyphicon glyphicon-file"></span> Documents <span class="badge">145</span>
+    </a>
+    <a href="#" class="list-group-item">
+        <span class="glyphicon glyphicon-music"></span> Music <span class="badge">50</span>
+    </a>
+    <a href="#" class="list-group-item">
+        <span class="glyphicon glyphicon-film"></span> Videos <span class="badge">8</span>
+    </a>
+	</div>
+	<div class="list-group">
+    <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">What is HTML?</h4>
+        <p class="list-group-item-text">HTML stands for HyperText Markup Language. HTML is the main markup language for describing the structure of Web pages.</p>
+    </a>
+    <a href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading">What is Twitter Bootstrap?</h4>
+        <p class="list-group-item-text">Twitter Bootstrap is a powerful front-end framework for faster and easier web development. It is a collection of HTML and CSS based design template.</p>
+    </a>
+    <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">What is CSS?</h4>
+        <p class="list-group-item-text">CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc.</p>
+    </a>
+	</div>
+	<!-- Scripts at end of the page for efficiency -->
 	<script src="http://code.jquery.com/jquery.min.js"></script>
   <script src="dist/js/bootstrap.min.js"></script>
 </body>
